@@ -1,5 +1,9 @@
+from explore.functions import train_and_test
+
+
 def main() -> None:
-	print("Hey")
+	train_and_test()
+
 
 if __name__ == "__main__":
-    main()
+	main()
